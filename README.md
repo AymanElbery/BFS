@@ -22,7 +22,7 @@ And these are some pictures for inputs and output of run my code:
 1 2 1 1<br>
 1<br>
 
-<img src="screenshot1.PNG" width="400px" height="300px">
+<img src="screenshot1.png" width="400px" height="300px">
 
 
 
@@ -36,5 +36,5 @@ And these are some pictures for inputs and output of run my code:
 1 2 3 3 2<br>
 2<br>
 
-<img src="screenshot2.PNG" height="300px">
+<img src="screenshot2.png" height="300px">
 
