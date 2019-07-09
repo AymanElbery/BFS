@@ -27,7 +27,6 @@ public class BFS {
         node.visited = true;
         node.parent = 0;
         int path = 0;
-        int notFound = -1;
         boolean ok = true;
         while (!queue.isEmpty() && ok) {
             Node element = queue.remove();
@@ -42,13 +41,12 @@ public class BFS {
                     if (n.id == givenId){
                         System.out.print("path = " + path + "\n");
                         ok = false;
-                        notFound = 0;
                         break;
                     }
                 }
             }
         }
-        if(notFound == -1 && ok) System.out.print("path = " + notFound + "\n");
+        if(ok) System.out.print("path = " + -1 + "\n");
     }
 
     public static void main(String[] args) {
